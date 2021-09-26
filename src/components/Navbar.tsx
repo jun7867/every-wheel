@@ -43,6 +43,10 @@ const ImgSearch = styled.img`
   font-size: 0.2em;
   outline: 0;
   margin-left: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 const AuthFrame = styled.div`
   position: absolute;
